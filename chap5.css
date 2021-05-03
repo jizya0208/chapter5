@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center; /* ナゼmargin: 0 auto;じゃできない？text-alignは、要素自体を右揃えや左揃えにするわけではない、とは？ */
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto; /* これいるの？　*/
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block; /* inline-blockの指定で自動で要素は横並びになる*/
+  margin: 0 20px;
+}
+
+.flex {
+  width: 800px;
+  margin: 50px 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.square2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.square3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.square4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.square5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.square6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.square7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.square8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.square9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+.square10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.square11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.square12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+.footer-text {
+  width: 100%;
+  height: 120px;
+  background-color: grey;
+  text-align: center;
+  line-height: 120px;
+}
+
+.footer-text {
+  color: #fff;
+}
